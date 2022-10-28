@@ -13,7 +13,7 @@ knitr::opts_chunk$set(eval=TRUE, include=TRUE, echo=TRUE, message=FALSE, warning
 
 # Instructions
 
-Complete the exercises in this .Rmd file and submit your .Rmd and .pdf output through [Quercus](https://q.utoronto.ca/courses/253019/assignments/782402) on Thursday, November 3rd by 5:00 p.m. ET. 
+Complete the exercises in this .Rmd file and submit your .Rmd and .pdf output through [Quercus](https://q.utoronto.ca/courses/277998/assignments/910642) on Thursday, November 3rd by 5:00 p.m. ET. 
 
 
 ```{r, message=FALSE}
@@ -22,7 +22,7 @@ library(tidyverse)
 
 # Part 1: Broadway
 
-## Question 1: Driving on the "Right" side of the Road
+## Question 1: Broadway
 
 Lin-Manuel Miranda was nominated for "Best Original Song" for the March 27, 2022 the Academy Awards (also known as the Oscars) for his work on the Disney movie Encanto. Miranda had already won an Emmy, Grammy, and Tony (mostly for his work on the broadway musical "Hamilton"), so he was very close to the (EGOT)[https://www.vanityfair.com/hollywood/2022/02/oscar-nominations-2022-will-lin-manuel-miranda-finally-egot-for-encanto] (Emmy, Grammy, Oscar and Tony), a rare occurrence as only 16 people have won all four awards [see here](https://en.wikipedia.org/wiki/List_of_EGOT_winners#:~:text=As%20of%202022%2C%2016%20people,any%20of%20the%20EGOT%20awards.). Unfortunately, Miranda did not win the Oscar in 2022. Perhaps he will soon!
 
@@ -111,12 +111,7 @@ $$\hat{y} = \hat{\beta}_0 + \hat{\beta}_1$$
  
 ### (i) Get the $R^2$ for your model and write one sentence interpreting it in context.
 
-```{r}
-# code you answer here
-
-```
-
-### (j) Create a plot of the association between `top_ticket_price` (on the y-axis) and `top_ticket_price` (on the x-axis) faceted by whether the musical was "Hamilton" or not using `facet_wrap(~Hamilton)`.
+*REPLACE THIS TEXT WITH YOUR ANSWER*
 
 ```{r}
 # code you answer here
@@ -125,7 +120,12 @@ $$\hat{y} = \hat{\beta}_0 + \hat{\beta}_1$$
 
 ### (j) Create a plot of the association between `top_ticket_price` (on the y-axis) and `top_ticket_price` (on the x-axis) faceted by whether the musical was "Hamilton" or not using `facet_wrap(~Hamilton)`.
 
-Calculate the correlation between top ticket price and average ticket price for both Hamilton and non-Hamilton musicals using the `group_by`, `summarise()` and `cor(top_ticket_price, top_ticket_price, na.rm=TRUE)`.
+```{r}
+# code you answer here
+
+```
+
+### (k) Calculate the correlation between top ticket price and average ticket price for both Hamilton and non-Hamilton musicals using the `group_by`, `summarise()` and `cor(top_ticket_price, top_ticket_price, na.rm=TRUE)`.
 
 ```{r}
 # code you answer here
@@ -149,6 +149,8 @@ glimpse(starbucksdata)
 ```
 
 ### (a)  Produce a plot that shows the association between carbohydrates and calories in Starbucks menu items. Describe this association.
+
+*REPLACE THIS TEXT WITH YOUR ANSWER*
 
 ```{r}
 # code you answer here
